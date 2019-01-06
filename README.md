@@ -1,4 +1,15 @@
 # GreenGrapes
+
+分支`guan`为我基于原主题基础上，根据自己的喜好做的一些修改。这里感谢作者**hongweipeng**。
+
+现用于我的博客[有关心情](http://youguanxinqing.xyz)
+
+- 019.1.7 增加点赞按钮
+
+
+-----
+以下为原创作者说明（截止019.1.6）：
+
 typecho 绿色主题
 
 ![image](https://github.com/hongweipeng/GreenGrapes/raw/master/screenshot.png)
