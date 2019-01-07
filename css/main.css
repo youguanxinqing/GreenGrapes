@@ -131,6 +131,7 @@ aside .card {
 	width:100%;
 	border-collapse: collapse;
 	border-spacing: 0;
+	margin-bottom: 1rem;
 }
 .article-content table td,.article-content table th {
 	border:1px solid #e6e6e6;
@@ -308,6 +309,13 @@ img.avatar {
 	padding-left: 30px;
 	/*border-left: 1px dotted rgba(0, 0, 0, 0.35);*/
 
+}
+
+/* code标签 */
+p code{
+	border-radius:5px;
+	padding:0 5px;
+	background-color: rgba(247, 233, 236, 0.9);
 }
 
 
