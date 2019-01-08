@@ -312,12 +312,38 @@ img.avatar {
 }
 
 /* code标签 */
-p code{
+p code, ul code{
 	border-radius:5px;
 	padding:0 5px;
-	background-color: rgba(247, 233, 236, 0.9);
+	background-color: rgba(27,31,35,.05);
 }
 
+/* 引用块样式调调整 */
+blockquote p{
+	margin-bottom: 0;
+}
+
+blockquote{
+	padding: 1rem;
+	background: #eef0f4;
+	color: #aaa;
+}
+
+/* 选中文字变色 */
+/*p::selection {
+    background:#555; 
+    color:#fff;
+}
+
+p::-moz-selection {
+    background:#555; 
+    color:#fff;
+}
+
+p::-webkit-selection {
+    background:#555;     
+    color:#fff;
+}*/
 
 
 .l-header{-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;z-index:10;position:relative;zoom:1;}
@@ -330,7 +356,7 @@ p code{
 
 .tit{padding:0 0 10px;font-weight:normal;}
 .tit a{color:#fff;font-size:2.812rem;letter-spacing:2px;opacity:.8;filter:alpha(opacity=80);font-family:微软雅黑;}
-.about{color:#fff;padding:0 0 15px;font-size:0.875rem;opacity:.8;filter:alpha(opacity=80);zoom:1;}
+.about{color:#fff;padding:0 0 15px;font-size:0.9rem;letter-spacing:0.05rem;;opacity:.8;filter:alpha(opacity=80);zoom:1;}
 
 .nav{margin-left:0;list-style:none}
 .nav > li > a{display:block}

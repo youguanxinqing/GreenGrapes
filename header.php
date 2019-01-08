@@ -30,6 +30,16 @@
     </style>
     <?php endif; ?>
     <?php $this->header(); ?>
+
+    <!-- 去除连续空格 -->
+    <script type="text/javascript">
+    window.onload=function(){
+        document.querySelectorAll('.post-article').forEach(function (elem) { 
+            elem.innerHTML = elem.innerHTML.replace(/(<br>){2,}/ig,"<br>");
+        });
+    }
+    </script>
+
 </head>
 <body>
 <?php if(!($this->is('post') || $this->is('page')) || empty($this->options->ShowBlock) || !in_array('HeaderHiddenInDetail', $this->options->ShowBlock)): ?>

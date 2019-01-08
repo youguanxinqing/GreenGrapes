@@ -11,7 +11,7 @@ blockquote {
 }
 
 .category-cloud a {
-    background-color: #BEBEBE;
+    background-color: #555;
 }
 
 .post-article .title a:hover{
@@ -20,12 +20,13 @@ blockquote {
 
 .article-copyright a, .article-content a,
 .article-copyright a:hover, .article-content a:hover {
-    color: #BEBEBE;
+    color: #555;
 }
 
 .btn-skin {
     border: 1px solid #BEBEBE !important;
-    color: #BEBEBE;
+    color: #ddd;
+    background-color: #555;
 }
 .btn-skin:hover {
     color: #fff !important;
@@ -33,7 +34,7 @@ blockquote {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: #BEBEBE;
+    background-color: #555;
     color: #fff;
 }
 
@@ -42,11 +43,11 @@ blockquote {
 }
 
 .card.card-skin .card-header {
-    background-color: #BEBEBE;
+    background-color: #555;
 }
 
 .badge-skin {
-    background-color: #BEBEBE;
+    background-color: #555;
 }
 
 #back-to-top:hover{

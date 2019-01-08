@@ -4,6 +4,11 @@
 
 现用于我的博客[有关心情](http://youguanxinqing.xyz)
 
+019.1.8
+ - 加深灰色主题中灰色的深度
+ - 增加js，去除使用`<!-- more -->`时自动添加的`<br>`
+ - 修改引用块（blockquote）的样式
+
 019.1.7 
  - 增加点赞按钮 
  - 增加表格下边距（margin-bottom）,同时放弃在bootstrap.min.css中修改样式，转而在main.css中修改
