@@ -7,7 +7,7 @@
  */
 function theme_random_posts(){
     $defaults = array(
-        'number' => 10,
+        'number' => 7,
         'before' => '<ul class="list-group">',
         'after' => '</ul>',
         'xformat' => '<li class="list-group-item clearfix"><a href="{permalink}" title="{title}">{title}</a></li>'

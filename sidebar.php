@@ -15,7 +15,7 @@
             <div class="tab-content">
                 <div class="tab-pane nav bs-sidenav active in" id="sidebar-new">
                     <ul class="list-group">
-                        <?php $this->widget('Widget_Contents_Post_Recent')
+                        <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=7')
                             ->parse('<li class="list-group-item clearfix"><a href="{permalink}">{title}</a></li>'); ?>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
         </div>
     </aside>
     <?php endif; ?>
-    <?php if(false): ?>
+    <?php if(False): ?>
     <aside>
         <div class="card card-skin hidden-xs">
             <div class="card-header"><i class="fa fa-book fa-fw"></i> 文章分类</div>
