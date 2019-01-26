@@ -358,7 +358,7 @@ div#mainbox2 {
     border-radius: 3px;
 }
 
-.post-article p a {
+.post-article p a, .post-article ul a {
 	text-decoration: underline;
 }
 

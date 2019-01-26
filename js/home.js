@@ -123,3 +123,15 @@ $(document).ready(function () {
 	    location.reload();
     });
 });
+
+
+// 去除多余<br>
+// 对postArticle的长度判断是为了避开该方法对点赞插件的影响
+$(function(){
+	var postArticle = $('.post-article')
+	if (postArticle.length > 1) {
+		postArticle.each(function(i, e) { 
+			$(e).html($(e).html().replace(/(<br>){2,}/ig,"<br>")) 
+		});
+	}
+});
