@@ -1,4 +1,30 @@
 # GreenGrapes
+
+分支`guan`为我基于原主题基础上，根据自己的喜好做的一些修改。这里感谢作者**hongweipeng**。
+
+现用于我的博客[有关心情](http://youguanxinqing.xyz)
+
+019.1.26
+ - 修改去除`<br>`的js代码，由原生js改为jquery实现，并从header.php移到js/home.js文件中
+ - 增加`post-article`的个数判断，避开其对点赞功能的影响
+
+019.1.18
+ - 修改主题样式，以加深灰色主题为主
+ - 增加归档页面
+
+019.1.8
+ - 加深灰色主题中灰色的深度
+ - 增加js，去除使用`<!-- more -->`时自动添加的`<br>`
+ - 修改引用块（blockquote）的样式
+
+019.1.7 
+ - 增加点赞按钮 
+ - 增加表格下边距（margin-bottom）,同时放弃在bootstrap.min.css中修改样式，转而在main.css中修改
+
+
+-----
+以下为原创作者说明（截止019.1.6）：
+
 typecho 绿色主题
 
 ![image](https://github.com/hongweipeng/GreenGrapes/raw/master/screenshot.png)

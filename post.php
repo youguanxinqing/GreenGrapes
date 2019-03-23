@@ -14,14 +14,16 @@ $hidden_sidebar =  !empty($this->options->ShowBlock) && in_array('SidebarHiddenI
                             <span class="badge badge-skin"><i class="fa fa-fw fa-tags"></i> <?php $this->category(','); ?></span>
                             <span class="badge badge-skin"><i class="fa fa-fw fa-calendar"></i> <?php $this->date('Y-m-d'); ?></span>
                             <?php if (class_exists('TeStat_Plugin') && isset($this->options->plugins['activated']['TeStat'])): ?>
-                            <span class="badge badge-skin"><i class="fa fa-fw fa-eye"></i> <?php $this->viewsNum(); ?> 次浏览</span>
-                            <span class="badge badge-skin"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="like-num-show"><?php $this->likesNum(); ?></span> 次点赞</span>
+                            <span class="badge badge-skin"><i class="fa fa-fw fa-file-text-o"></i> <?php $this->charactersNum(); ?> 字</span>
+                            <span class="badge badge-skin"><i class="fa fa-fw fa-eye"></i> <?php $this->viewsNum(); ?> 浏览</span>
+                            <span class="badge badge-skin"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="like-num-show"><?php $this->likesNum(); ?></span> 点赞</span>
                             <?php endif; ?>
                         </p>
                     </div>
                     <div class="article-content clearfix">
                         <?php $this->content(); ?>
                     </div>
+                    <br/>
                     <?php if($this->allow('ping')): ?>
                         <div class="article-copyright">
                             <div class="article-license">
@@ -43,6 +45,11 @@ $hidden_sidebar =  !empty($this->options->ShowBlock) && in_array('SidebarHiddenI
                         <?php Reward_Plugin::show_reward($extra_str); ?>
                         <?php Reward_Plugin::show_modal(); ?>
                     <?php endif; ?>
+                    <!-- 点赞按钮 -->
+                    <button class="btn btn-info btn-like" type="button" data-cid="<?php _e($this->cid); ?>">
+                        <i class="fa fa-fw fa-thumbs-o-up"></i> 点赞 
+                        <span class="like-num-show"><?php _e($this->likesNum); ?></span>
+                    </button>
                 </article>
 
             </div>

@@ -131,6 +131,7 @@ aside .card {
 	width:100%;
 	border-collapse: collapse;
 	border-spacing: 0;
+	margin-bottom: 1rem;
 }
 .article-content table td,.article-content table th {
 	border:1px solid #e6e6e6;
@@ -310,6 +311,56 @@ img.avatar {
 
 }
 
+/* code标签 */
+p code, ul code{
+	border-radius:5px;
+	padding:0 5px;
+	background-color: rgba(27,31,35,.05);
+}
+
+/* 引用块样式调调整 */
+blockquote p{
+	margin-bottom: 0;
+}
+
+blockquote{
+	padding: 1rem;
+	background: #eef0f4;
+	color: #aaa;
+}
+
+/* 选中文字变色 */
+/*p::selection {
+    background:#555; 
+    color:#fff;
+}
+
+p::-moz-selection {
+    background:#555; 
+    color:#fff;
+}
+
+p::-webkit-selection {
+    background:#555;     
+    color:#fff;
+}*/
+
+div#mainbox2 {
+    position: relative;
+    margin: 9% auto 5%;
+    padding: 1% 3% 2%;
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 3px #ddd;
+    box-shadow: 1px 2px 3px #ddd;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.post-article p a, .post-article ul a {
+	text-decoration: underline;
+}
 
 
 .l-header{-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;z-index:10;position:relative;zoom:1;}
@@ -322,7 +373,7 @@ img.avatar {
 
 .tit{padding:0 0 10px;font-weight:normal;}
 .tit a{color:#fff;font-size:2.812rem;letter-spacing:2px;opacity:.8;filter:alpha(opacity=80);font-family:微软雅黑;}
-.about{color:#fff;padding:0 0 15px;font-size:0.875rem;opacity:.8;filter:alpha(opacity=80);zoom:1;}
+.about{color:#fff;padding:0 0 15px;font-size:0.9rem;letter-spacing:0.05rem;;opacity:.8;filter:alpha(opacity=80);zoom:1;}
 
 .nav{margin-left:0;list-style:none}
 .nav > li > a{display:block}
