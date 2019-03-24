@@ -4,6 +4,9 @@
 
 现用于我的博客[有关心情](http://youguanxinqing.xyz)
 
+019.3.24
+ - 修改头像、背景图片，整理文件目录
+
 019.1.26
  - 修改去除`<br>`的js代码，由原生js改为jquery实现，并从header.php移到js/home.js文件中
  - 增加`post-article`的个数判断，避开其对点赞功能的影响
