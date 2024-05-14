@@ -3,9 +3,9 @@
  * 绿葡萄的主题, 一款有科技感颗粒，自定义头像的， 好看的标签云的响应式模板。
  *
  * @package GreenGrapes
- * @author hongweipeng
+ * @author youguanxinqing(原: hongweipeng)
  * @version 2.0.1
- * @link https://github.com/hongweipeng/GreenGrapes
+ * @link https://github.com/youguanxinqing/GreenGrapes
  */
 $this->need('header.php');
 ?>
