@@ -21,7 +21,7 @@
                     </div>
                     <div class="article-content clearfix">
                         <div>
-                            全站 <strong><?php $stat = Typecho_Widget::widget('Widget_Stat'); ?><?php echo $stat->PublishedPostsNum; ?></strong> 文 <strong><?php WordsCounter_Plugin::allOfCharacters(); ?></strong> 字，分以下类：
+                            全站 <strong><?php $stat = Typecho_Widget::widget('Widget_Stat'); ?><?php echo $stat->PublishedPostsNum; ?></strong> 文 <strong><?php echo WordsCounter_Plugin::allOfCharacters(); ?></strong> 字，分以下类：
                         </div>
                         <div class="">
                             <?php $this->widget('Widget_Metas_Category_List')->listCategories('wrapClass=widget-list'); ?>
