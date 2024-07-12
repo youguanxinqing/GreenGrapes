@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/main.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/skin-'. get_theme_color() .'.css'); ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css" integrity="sha512-6rTdL2rVgKspwuGwkscpANImWzThuYxDi2MD6S37xJdmuRwku0FFu44GrnSy5ymAoKUGQwoN+c7K1VM3ID9UIg=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- 通过自有函数输出HTML头部信息 -->
     <?php if(class_exists('Snow_Plugin') && isset($this->options->plugins['activated']['Snow'])): ?>
     <style>

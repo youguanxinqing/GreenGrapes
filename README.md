@@ -2,7 +2,10 @@
 
 根据自己的喜好做的一些修改。这里感谢原作者**hongweipeng**。
 
-现用于我的博客[有关心情](http://youguanxinqing.xyz)
+现用于我的博客[有关心情](https://youguanxinqing.xyz)
+
+024.7.12
+- 修改字体为霞鹜
 
 024.5.13
 - 修改“点赞”为“喜欢”

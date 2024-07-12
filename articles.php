@@ -58,7 +58,7 @@
         <div class="col-md-4">
             <aside id="sidebar">
                 <aside>
-                    <form method="get" id="searchform" class="form-inline clearfix" action="./">
+                    <form method="get" id="searchform" class="form-inline clearfix searchform-fix" action="./">
                         <input class="form-control" name="s" id="s" placeholder="搜索关键词..." type="text">
                         <button class="btn btn-skin ml-1"><i class="fa fa-search"></i> 查找</button>
                     </form>

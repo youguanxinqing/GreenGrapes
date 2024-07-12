@@ -1,7 +1,7 @@
 <aside id="sidebar">
     <aside>
         <form method="get" id="searchform" class="form-inline clearfix" action="./">
-            <input class="form-control" name="s" id="s" placeholder="搜索关键词..." type="text">
+            <input class="form-control searchform-fix" name="s" id="s" placeholder="搜索关键词..." type="text">
             <button class="btn btn-skin ml-1"><i class="fa fa-search"></i> 查找</button>
         </form>
     </aside>
